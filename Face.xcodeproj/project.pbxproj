@@ -207,7 +207,8 @@
 				TargetAttributes = {
 					53A6AF6E1D936E18000E7C4B = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = AQS8666UA3;
+						ProvisioningStyle = Manual;
 					};
 					53A6AF871D936E18000E7C4B = {
 						CreatedOnToolsVersion = 8.0;
@@ -422,10 +423,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AQS8666UA3;
 				INFOPLIST_FILE = Face/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.lifecycle.Face;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8d03fab7-c9a8-484d-bb0c-6fcc6565bdd4";
+				PROVISIONING_PROFILE_SPECIFIER = "zhu developer";
 			};
 			name = Debug;
 		};
@@ -433,10 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = AQS8666UA3;
 				INFOPLIST_FILE = Face/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.lifecycle.Face;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "518dd3e9-f329-4459-8e8a-337eacf245fc";
+				PROVISIONING_PROFILE_SPECIFIER = "zhu appstore";
 			};
 			name = Release;
 		};
